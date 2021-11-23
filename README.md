@@ -1,18 +1,17 @@
 # Lexical-Analyzer-Parser
 
-Parser &amp; Lexical Analyzer for a simple Programming Language grammar
+Parser &amp; Lexical Analyzer for a simple Programming Language grammar.
 
 ### Grammar Definition:
 
+```
 statement = {expression ";" } "."
-
 expression = term { ( "+" | "-" ) term }
-
 term = factor {("\*" | "/") factor}
-
 factor = number | "-"number | "(" expression ")"
+```
 
-for learning about programming language grammar check out [Montana State University lecture](https://faculty.ksu.edu.sa/sites/default/files/04-grammars.pdf)
+For learning about programming language grammar check out [Montana State University lecture](https://faculty.ksu.edu.sa/sites/default/files/04-grammars.pdf).
 
 ### Description
 
